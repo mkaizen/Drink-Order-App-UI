@@ -1,7 +1,7 @@
 import 'package:drink_order_app_ui/constants/constants.dart';
 import 'package:drink_order_app_ui/screens/home/components/categories.dart';
 import 'package:drink_order_app_ui/screens/home/components/custom_app_bar.dart';
-import 'package:drink_order_app_ui/screens/home/components/custom_botoom_navigation_bar.dart';
+import 'package:drink_order_app_ui/screens/home/components/custom_bottom_navigation_bar.dart';
 import 'package:drink_order_app_ui/screens/home/components/drink_products.dart';
 import 'package:flutter/material.dart';
 
@@ -11,6 +11,16 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  bool menu = false;
+
+  void setMenu(bool newMenu) {
+    menu = newMenu;
+  }
+
+  bool getMenu() {
+    return menu;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

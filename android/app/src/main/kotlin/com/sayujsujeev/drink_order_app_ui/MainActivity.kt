@@ -1,4 +1,4 @@
-package com.sayujsujeev.drink_order_app_ui
+package com.barbud
 
 import io.flutter.embedding.android.FlutterActivity
 

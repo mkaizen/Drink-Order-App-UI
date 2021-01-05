@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "84210660221",
+    "firebase_url": "https://barapp-548ec.firebaseio.com",
+    "project_id": "barapp-548ec",
+    "storage_bucket": "barapp-548ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84210660221:android:d09b54d3771a1ef700d214",
+        "android_client_info": {
+          "package_name": "com.barbud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84210660221-ogefd1io88mrfakf5ilfh2gmagq9hama.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyyUWFX7sOAPb19DIp5EzjZno2VgJkVVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84210660221-ogefd1io88mrfakf5ilfh2gmagq9hama.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "84210660221-2deth3si59qa7ucc9u5nsd52olu6kmc2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mbowman.barapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
